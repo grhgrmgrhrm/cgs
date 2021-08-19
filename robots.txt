@@ -1,0 +1,44 @@
+User-agent: zombies
+Disallow: /brains
+
+User-agent: *
+Allow: /sitemap.xml
+Allow: /*.js*
+Allow: /*.css*
+Allow: /*.png*
+Allow: /*.jpg*
+Allow: /*.gif*
+Allow: /assets/*.css 
+Allow: /assets/*.js 
+
+Disallow: /*start
+Disallow: /*searchword
+ 
+User-agent: Googlebot
+Allow: /sitemap.xml
+Allow: /*.js*
+Allow: /*.css*
+Allow: /*.png*
+Allow: /*.jpg*
+Allow: /*.gif*
+Allow: /assets/*.css 
+Allow: /assets/*.js 
+
+Disallow: /*start
+Disallow: /*searchword
+ 
+User-agent: Yandex
+Allow: /sitemap.xml
+Allow: /*.js*
+Allow: /*.css*
+Allow: /*.png*
+Allow: /*.jpg*
+Allow: /*.gif*
+Allow: /assets/*.css 
+Allow: /assets/*.js 
+
+Disallow: /*start
+Disallow: /*searchword
+
+Host: http://cgs.by
+Sitemap: http://cgs.by/sitemap.xml
